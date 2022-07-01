@@ -1,0 +1,68 @@
+<%- include('../includes/head.ejs') %>
+<link rel="icon" type="image/png" href="/images/loginPage/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/js/loginPage/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/fonts/loginPage/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/js/loginPage/vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="/js/loginPage/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/js/loginPage/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/css/loginPage/util.css">
+	<link rel="stylesheet" type="text/css" href="/css/loginPage/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-pic js-tilt" data-tilt>
+					<img src="/images/loginPage/img-01.png" alt="IMG">
+				</div>
+
+				<form class="login100-form validate-form">
+					<span class="login100-form-title">
+						<%= pageHead %>
+					</span>
+
+					<div>
+						<a class="login-button hollow button primary" href= <%= loginLink %> >
+						  <img width="30px" style="margin-bottom:3px; margin-right:5px" alt="Google" src=
+						  "/images/loginPage/google-logo-login.png" />
+						  Log in with Google
+						</a>
+					  </div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+<!--===============================================================================================-->	
+	<script src="/js/loginPage/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/js/loginPage/vendor/bootstrap/js/popper.js"></script>
+	<script src="/js/loginPage/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/js/loginPage/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/js/loginPage/vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/js/loginPage/main.js"></script>
+
+
+
+
+
+<%- include('../includes/end.ejs') %>
